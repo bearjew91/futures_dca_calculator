@@ -8,16 +8,16 @@ Edit the fields in the configuration section:
 # # # # # # # # # # CONFIGURATION # # # # # # # # # #
 
 
-coin = "bitcoin"                  #coin name for dca simualtion
-static_price = None               #static price instead of price lookup from coingecko, if set as number, script wont execute price lookup, set to None to disable
-leverage = 20                     #leverage used
-base_order = 105                  #base order
-safety_order = 35                 #first safety order
-safety_order_step_scale = 1.15    #safety order steps will grow by this multiplier
-safety_order_volume_scale = 1.6   #safety order volumes will grow by this multiplier
-max_safety_orders = 10            #maximum amount of safety orders
-price_deviation = 1               #starting price deviation, will trigger the first safety order
-additionnal_dump = 4.7            #extra dump after the last safety order was filled (%)
+coin = "bitcoin"                  #coin name for dca simualtion<br/>
+static_price = None               #static price instead of price lookup from coingecko, if set as number, script wont execute price lookup, set to None to disable<br/>
+leverage = 20                     #leverage used<br/>
+base_order = 105                  #base order<br/>
+safety_order = 35                 #first safety order<br/>
+safety_order_step_scale = 1.15    #safety order steps will grow by this multiplier<br/>
+safety_order_volume_scale = 1.6   #safety order volumes will grow by this multiplier<br/>
+max_safety_orders = 10            #maximum amount of safety orders<br/>
+price_deviation = 1               #starting price deviation, will trigger the first safety order<br/>
+additionnal_dump = 4.7            #extra dump after the last safety order was filled (%)<br/>
 
  
 # # # # # # # # # # CONFIGURATION # # # # # # # # # #
